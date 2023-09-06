@@ -15,10 +15,10 @@ int main()
             cin>>arr[i];
             sum+=arr[i];
         }
-        if(sum<0)
-            cout<<1<<"\n";
-        else if(sum==0)
-            cout<<0<<"\n";
+        if(sum<n)
+            cout<<"1\n";
+        else if(sum==n)
+            cout<<"0\n";
         else
             cout<<sum-n<<"\n";
     }
